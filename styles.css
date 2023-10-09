@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    transition: background-color 0.5s ease-in-out;
+    opacity: 0;
+    /* Initially set to 0 for fade-in effect */
+}
+
+
+.navbar {
+    background-color: darkgrey;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: white;
+    font-size: 35;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #3498db;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #2980b9;
+    transition: .4s;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.2);
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
